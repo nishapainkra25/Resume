@@ -1,0 +1,65 @@
+.feedback {
+  width: 350px;
+  background: #ffffff;
+  padding: 25px;
+  margin: 40px auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  font-family: 'Poppins', sans-serif;
+}
+
+.feedback h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.feedback label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  display: block;
+  color: #444;
+}
+
+.feedback input,
+.feedback select,
+.feedback textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 14px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.feedback input:hover,
+.feedback select:hover,
+.feedback textarea:hover {
+  background-color:lightpink;
+  transform: scale(1.03);
+  /* outline: none; */
+}
+
+.feedback button {
+  width: 100%;
+  padding: 12px;
+  background: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.feedback button:hover {
+  background: red;
+  transform: scale(1.03);
+}
+
+@media (max-width: 480px) {
+  .feedback-container {
+    width: 90%;
+  }
+}
